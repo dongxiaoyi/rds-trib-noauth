@@ -14,7 +14,6 @@
 
 ```# shell
    $ ./rubyc redis-trib.rb -o rds-trib-pass
-
 ```
 
 （2）将依赖库（连接redis的依赖库）、密码文件放到rds-trib-pass同级目录
