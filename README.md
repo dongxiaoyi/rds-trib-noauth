@@ -12,8 +12,10 @@
 
 （1）参考https://github.com/pmq20/ruby-packer，使用其二进制指令rubyc编译redis-trib.rb
 
-# shell
-$ ./rubyc redis-trib.rb -o rds-trib-pass
+```# shell
+   $ ./rubyc redis-trib.rb -o rds-trib-pass
+
+```
 
 （2）将依赖库（连接redis的依赖库）、密码文件放到rds-trib-pass同级目录
 
